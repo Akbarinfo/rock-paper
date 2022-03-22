@@ -11,25 +11,93 @@
 
 <body>
 
-  <!-- HEADER PART -->
-
-  <header class="">
-    <section class="">
-
-    </section>
-  </header>
-
   <!-- MAIN PART  -->
 
   <main>
+    <section class="rock">
+      <div class="container">
+        <div class="rock__box">
 
+          <div class="rock__score">
+            <p class="rock__text">Your</p>
+            <p class="rock__num" id="your">0</p>
+          </div>
+
+          <button class="rock__play" id="play">Play</button>
+
+          <div class="rock__score">
+            <p class="rock__text">PC</p>
+            <p class="rock__num" id="pc">0</p>
+          </div>
+        </div>
+
+        <ul class="rock__list" id="ul1">
+          <li class="rock__item" id="paper_item">
+            <button class="rock__btnf rock__btn" type="button" value="1" >
+              <span class="rock__one">
+                <span class="rock__two">
+                  <span class="rock__three">
+                    <img src="/img/five.svg" alt="img">
+                  </span>
+                </span>
+              </span>
+            </button>
+          </li>
+          <li class="rock__item" id="scissors_item">
+            <button class="rock__btnf rock__btn" type="button" id="scissors" value="2">
+              <span class="rock__one yellow">
+                <span class="rock__two">
+                  <span class="rock__three">
+                    <img src="/img/two.svg" alt="img">
+                  </span>
+                </span>
+              </span>
+            </button>
+          </li>
+          <li class="rock__item" id="rock_item2">
+            <button class="rock__btnf rock__btn" type="button" id="rock" value="3">
+              <span
+                class="rock__one red">
+                <span class="rock__two">
+                  <span class="rock__three">
+                    <img src="/img/nul.svg"
+                      alt="img">
+                    </span>
+                  </span></span></button></li>
+
+        </ul>
+
+        <!-- DISplay none ul  -->
+
+        <ul class="rock__list"  style="display: none;" id="ul2">
+          <li class="rock__item" id="paper_item">
+            <button class="rock__btnf rock__btn" type="button" value="1" >
+              <span class="rock__one">
+                <span class="rock__two">
+                  <span class="rock__three">
+                    <img src="" alt="img" id="img1">
+                  </span>
+                </span>
+              </span>
+            </button>
+          </li>
+          <li class="rock__item" id="scissors_item">
+            <button class="rock__btnf rock__btn" type="button" id="scissors" value="2">
+              <span class="rock__one yellow">
+                <span class="rock__two">
+                  <span class="rock__three">
+                    <img src="" alt="img" id="img2">
+                  </span>
+                </span>
+              </span>
+            </button>
+          </li>
+        </ul>
+
+
+      </div>
+    </section>
   </main>
-
-  <!-- FOOTER PART  -->
-
-  <footer class="footer">
-
-  </footer>
 
   <script src="js/main.js"></script>
 </body>

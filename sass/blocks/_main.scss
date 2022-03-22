@@ -1,2 +1,153 @@
 /* MAIN PART  */
 
+.rock {
+  padding-top: 48px;
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    border: 3px solid rgba(255, 255, 255, 0.289199);
+    border-radius: 15px;
+    padding: 28px 30px;
+    margin: 0 auto;
+    margin-bottom: 163px;
+  }
+
+  &__play {
+    background: none;
+    border: none;
+    width: 155.48px;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  &__score {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(0deg, #F3F3F3 0%, #FFFFFF 100%);
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.196706);
+    border-radius: 8px;
+    padding: 16px 48px;
+  }
+
+  &__text {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #2a45c2;
+  }
+
+  &__num {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    color: #565468;
+
+  }
+
+  &__list {
+    position: relative;
+    width: 254px;
+    height: 287px;
+    background-image: url(/img/back.svg);
+    background-repeat: no-repeat;
+    background-size: 254px 287px;
+    list-style-type: none;
+    margin: 0 auto;
+  }
+
+  &__item {
+    position: absolute;
+    width: 198px;
+    height: 194px;
+    border-radius: 50%;
+
+    &:nth-child(1) {
+      top: -75px;
+      left: -135px;
+    }
+
+    &:nth-child(2) {
+      top: -75px;
+      right: -95px;
+    }
+
+    &:nth-child(3) {
+      bottom: -50px;
+      left: 0x;
+    }
+
+    &:hover .rock__btn {
+      border-color: #ffffff0e;
+    }
+  }
+
+  &__btn {
+    background: none;
+    border: none;
+    border-radius: 50%;
+    border: 23px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s linear;
+  }
+
+  &__one {
+    display: block;
+    width: 198px;
+    height: 194px;
+    background-color: #4664f4;
+    border-radius: 50%;
+    padding: 23px;
+  }
+
+  &__two {
+    display: block;
+    width: 152px;
+    height: 152px;
+    background-color: #babfd4;
+    border-radius: 50%;
+    padding-top: 8px;
+  }
+  &__three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 152px;
+    height: 144px;
+    background: linear-gradient(0deg, #f3f3f3 0%, #dadada 98.34%);
+    border-radius: 50%;
+  }
+
+  &__ {
+
+  }
+
+  &__ {
+
+  }
+
+  &__ {
+
+  }
+
+  &__ {
+
+  }
+}
+
+.yellow {
+  background-color: #eb9f0e;
+}
+
+.red {
+  background-color: #db2e4d;
+}
