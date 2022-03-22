@@ -127,21 +127,6 @@
     border-radius: 50%;
   }
 
-  &__ {
-
-  }
-
-  &__ {
-
-  }
-
-  &__ {
-
-  }
-
-  &__ {
-
-  }
 }
 
 .yellow {
@@ -150,4 +135,19 @@
 
 .red {
   background-color: #db2e4d;
+}
+
+
+.bxs-caret-right-circle {
+  font-size: 100px;
+}
+
+.bx-play-circle {
+  font-size: 100px;
+}
+
+.play {
+  position: absolute;
+  bottom: 0px;
+  left: 50px;
 }

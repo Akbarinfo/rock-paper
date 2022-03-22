@@ -2,6 +2,7 @@ const elPaper = document.querySelector('.rock__btnf.rock__btn');
 const elScissors = document.getElementById('scissors');
 let yourScore = document.querySelector('#your')
 const playBtn = document.querySelector('#play')
+const elIdPlayBtn = document.querySelector('#id-play')
 const elRock = document.getElementById('rock');
 let pcScore = document.querySelector('#pc')
 const ul1 = document.querySelector('#ul1')
@@ -113,7 +114,7 @@ elRock.addEventListener('click', () => {
 });
 
 // play button bosilganida ishlaydigan function
-playBtn.onclick = function() {
+elIdPlayBtn.onclick = function() {
   // kimdir yutganini tekshirish
   isFinish()
   playBtn.textContent = 'Play'
